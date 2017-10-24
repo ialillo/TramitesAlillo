@@ -1,0 +1,10 @@
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Web.dll.config
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Web.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Web.pdb
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\bin\Newtonsoft.Json.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Security.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Security.pdb
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\bin\Newtonsoft.Json.xml
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.csprojResolveAssemblyReference.cache
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.pdb

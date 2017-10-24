@@ -1,0 +1,8 @@
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\TramitesAlillo.DAL.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\TramitesAlillo.DAL.pdb
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DAL\obj\Debug\TramitesAlillo.DAL.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DAL\obj\Debug\TramitesAlillo.DAL.pdb

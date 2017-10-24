@@ -1,0 +1,5 @@
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\bin\Debug\TramitesAlillo.Security.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\bin\Debug\TramitesAlillo.Security.pdb
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.csprojResolveAssemblyReference.cache
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.pdb

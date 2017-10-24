@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{94B88D8E-E4C3-4B4B-A753-6A1F8006C6C7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TramitesAlillo.DTO</RootNamespace>
+    <AssemblyName>TramitesAlillo.DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\Agencias.cs" />
+    <Compile Include="Configuration\TramiteEspecificacion.cs" />
+    <Compile Include="General\Catalogs\AdicionalesTramite.cs" />
+    <Compile Include="General\Catalogs\ColoresEngomado.cs" />
+    <Compile Include="General\Catalogs\EntidadTramite.cs" />
+    <Compile Include="General\Catalogs\RequerimientoTramite.cs" />
+    <Compile Include="General\Catalogs\RequerimientoTramiteStatus.cs" />
+    <Compile Include="General\Catalogs\RequerimientoTramiteTipoEntrega.cs" />
+    <Compile Include="General\Catalogs\TipoTramite.cs" />
+    <Compile Include="General\Catalogs\TramiteStatus.cs" />
+    <Compile Include="General\Catalogs\SelectCatalogs.cs" />
+    <Compile Include="General\Controls\Select.cs" />
+    <Compile Include="General\Person.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="General\Result.cs" />
+    <Compile Include="General\ResultGeneric.cs" />
+    <Compile Include="General\User.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Navegation\Menu.cs" />
+    <Compile Include="Navegation\Modulo.cs" />
+    <Compile Include="Navegation\SubModulo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\LoggedUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security\UserManagement.cs" />
+    <Compile Include="Tools\Mailing\Email.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TramitesAlillo.DAL\TramitesAlillo.DAL.csproj">
+      <Project>{ea1fb7b4-afdd-4207-aabb-6bb780bce879}</Project>
+      <Name>TramitesAlillo.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TramitesAlillo.Security\TramitesAlillo.Security.csproj">
+      <Project>{89625022-230e-4549-bd59-7afd1020a6db}</Project>
+      <Name>TramitesAlillo.Security</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

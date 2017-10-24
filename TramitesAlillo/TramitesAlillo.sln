@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TramitesAlillo.DAL", "TramitesAlillo.DAL\TramitesAlillo.DAL.csproj", "{EA1FB7B4-AFDD-4207-AABB-6BB780BCE879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TramitesAlillo.DTO", "TramitesAlillo.DTO\TramitesAlillo.DTO.csproj", "{94B88D8E-E4C3-4B4B-A753-6A1F8006C6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TramitesAlillo.Security", "TramitesAlillo.Security\TramitesAlillo.Security.csproj", "{89625022-230E-4549-BD59-7AFD1020A6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TramitesAlillo.Exception", "TramitesAlillo.Exception\TramitesAlillo.Exception.csproj", "{7526EA66-9FCA-46AE-B1DE-48B7879865B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TramitesAlillo.Services", "TramitesAlillo.Services\TramitesAlillo.Services.csproj", "{40E83BEB-7498-4B63-8E08-E9C74DB4D12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TramitesAlillo.Web", "TramitesAlillo.Web\TramitesAlillo.Web.csproj", "{2AB13019-51C4-4E1A-866C-35928500CC3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{40E83BEB-7498-4B63-8E08-E9C74DB4D12C} = {40E83BEB-7498-4B63-8E08-E9C74DB4D12C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA1FB7B4-AFDD-4207-AABB-6BB780BCE879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1FB7B4-AFDD-4207-AABB-6BB780BCE879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1FB7B4-AFDD-4207-AABB-6BB780BCE879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1FB7B4-AFDD-4207-AABB-6BB780BCE879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B88D8E-E4C3-4B4B-A753-6A1F8006C6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B88D8E-E4C3-4B4B-A753-6A1F8006C6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B88D8E-E4C3-4B4B-A753-6A1F8006C6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B88D8E-E4C3-4B4B-A753-6A1F8006C6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89625022-230E-4549-BD59-7AFD1020A6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89625022-230E-4549-BD59-7AFD1020A6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89625022-230E-4549-BD59-7AFD1020A6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89625022-230E-4549-BD59-7AFD1020A6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7526EA66-9FCA-46AE-B1DE-48B7879865B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7526EA66-9FCA-46AE-B1DE-48B7879865B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7526EA66-9FCA-46AE-B1DE-48B7879865B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7526EA66-9FCA-46AE-B1DE-48B7879865B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E83BEB-7498-4B63-8E08-E9C74DB4D12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E83BEB-7498-4B63-8E08-E9C74DB4D12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E83BEB-7498-4B63-8E08-E9C74DB4D12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E83BEB-7498-4B63-8E08-E9C74DB4D12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB13019-51C4-4E1A-866C-35928500CC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB13019-51C4-4E1A-866C-35928500CC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB13019-51C4-4E1A-866C-35928500CC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB13019-51C4-4E1A-866C-35928500CC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
