@@ -9,7 +9,7 @@ namespace TramitesAlillo.DTO.Configuration
     /// 
     /// </summary>
     [DataContract]
-    class TramiteEspecificacion : IDisposable
+    public class TramiteEspecificacion : IDisposable
     {
         private bool _disposed;
 

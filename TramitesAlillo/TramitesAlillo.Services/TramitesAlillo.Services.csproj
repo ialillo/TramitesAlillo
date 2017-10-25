@@ -76,6 +76,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Configuration\Tramites.svc" />
     <Content Include="Global.asax" />
     <Content Include="Navegation\Navegation.svc" />
     <Content Include="Security\Security.svc" />
@@ -85,6 +86,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\ITramites.cs" />
+    <Compile Include="Configuration\Tramites.svc.cs">
+      <DependentUpon>Tramites.svc</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -121,9 +126,7 @@
       <Name>TramitesAlillo.Exception</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Configuration\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

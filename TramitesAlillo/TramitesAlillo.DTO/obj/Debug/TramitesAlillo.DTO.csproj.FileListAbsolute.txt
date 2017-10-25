@@ -12,3 +12,17 @@ E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DTO\bin\De
 E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.Security.pdb
 E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
 E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DTO.dll.config
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DTO.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DTO.pdb
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DAL.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.Security.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DAL.pdb
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.Security.pdb
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.csprojResolveAssemblyReference.cache
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.dll
+E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.pdb

@@ -85,6 +85,7 @@
     <Content Include="Scripts\Bootstrap\bootstrap.js" />
     <Content Include="Scripts\Bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\Bootstrap\bootstrapValidator.min.js" />
+    <Content Include="Scripts\Configuration\Tramites.js" />
     <Content Include="Scripts\General.js" />
     <Content Include="Scripts\JQuery\jquery-2.1.0.min.js" />
     <Content Include="Scripts\JSON2\json2.min.js" />
@@ -163,7 +164,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Scripts\Configuration\" />
     <Folder Include="Security\" />
     <Folder Include="Styles\JQuery\" />
   </ItemGroup>

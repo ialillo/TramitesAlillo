@@ -49,6 +49,10 @@
             Navegacion: {
                 subURL: "Services/Navegation",
                 getMenu: "/GetMenu"
+            },
+            Configuracion: {
+                subURL: "Services/Configuration",
+                getTramiteEspecificacionList: "/GetTramiteEspecificacionList"
             }
         }
     },

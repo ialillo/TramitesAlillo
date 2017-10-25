@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="TramitesAlillo.Services.Configuration.Tramites" CodeBehind="Tramites.svc.cs" %>
