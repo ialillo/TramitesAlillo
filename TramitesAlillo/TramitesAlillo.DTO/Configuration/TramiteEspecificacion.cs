@@ -45,7 +45,7 @@ namespace TramitesAlillo.DTO.Configuration
             this.PersonaMoral = personaMoral;
             this.Carga = carga;
             this.FechaInicioVigencia = fechaInicioVigencia;
-            this.fechaFinVigencia = fechaFinVigencia;
+            this.FechaFinVigencia = fechaFinVigencia;
         }
 
         /// <summary>
@@ -118,7 +118,7 @@ namespace TramitesAlillo.DTO.Configuration
         /// 
         /// </summary>
         [DataMember]
-        public string fechaFinVigencia { get; set; }
+        public string FechaFinVigencia { get; set; }
 
         /// <summary>
         /// Insertamos una nueva especificacion de un tramite
@@ -167,7 +167,7 @@ namespace TramitesAlillo.DTO.Configuration
         {
             using (DBAcceso<TramiteEspecificacion> te = new DBAcceso<TramiteEspecificacion>())
             {
-                return te.GetObject("Configuracion.TramiteEspecificacionManagement", 3);
+                return te.GetObject("Configuracion.TramiteEspecificacionManagement");
             }
         }
 

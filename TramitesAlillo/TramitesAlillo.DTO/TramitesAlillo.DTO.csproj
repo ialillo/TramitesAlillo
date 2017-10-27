@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\Agencias.cs" />
+    <Compile Include="Configuration\TramiteConfiguracion.cs" />
     <Compile Include="Configuration\TramiteEspecificacion.cs" />
     <Compile Include="General\Catalogs\AdicionalesTramite.cs" />
     <Compile Include="General\Catalogs\ColoresEngomado.cs" />

@@ -20,6 +20,9 @@ namespace TramitesAlillo.Services
 
             ///Navegation
             RouteTable.Routes.Add(new ServiceRoute("Navegation", new WebServiceHostFactory(), typeof(Navegation.Navegation)));
+
+            ///Configuration
+            RouteTable.Routes.Add(new ServiceRoute("Configuration", new WebScriptServiceHostFactory(), typeof(Configuration.Tramites)));
         }
 
         protected void Session_Start(object sender, EventArgs e)
