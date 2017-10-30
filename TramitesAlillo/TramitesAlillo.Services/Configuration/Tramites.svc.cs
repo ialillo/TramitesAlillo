@@ -11,13 +11,13 @@ namespace TramitesAlillo.Services.Configuration
     // NOTE: In order to launch WCF Test Client for testing this service, please select Tramites.svc or Tramites.svc.cs at the Solution Explorer and start debugging.
     public class Tramites : ITramites
     {
-        public DTO.General.ResultGeneric<DTO.Configuration.TramiteEspecificacion> GetTramiteEspecificacionList()
+        public DTO.General.ResultGeneric<DTO.Configuration.TramiteConfiguracion> GetTramiteEspecificacionList()
         {
-            using (DTO.General.ResultGeneric<DTO.Configuration.TramiteEspecificacion> result = new DTO.General.ResultGeneric<DTO.Configuration.TramiteEspecificacion>())
+            using (DTO.General.ResultGeneric<DTO.Configuration.TramiteConfiguracion> result = new DTO.General.ResultGeneric<DTO.Configuration.TramiteConfiguracion>())
             {
                 try
                 {
-                    using (DTO.Configuration.TramiteEspecificacion te = new DTO.Configuration.TramiteEspecificacion())
+                    using (DTO.Configuration.TramiteConfiguracion te = new DTO.Configuration.TramiteConfiguracion())
                     {
                         result.Object = te.GetTramiteEspecificacionList();
                         result.Success = true;

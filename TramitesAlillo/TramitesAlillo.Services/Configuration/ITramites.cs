@@ -14,6 +14,6 @@ namespace TramitesAlillo.Services.Configuration
         /// <returns></returns>
         [OperationContract]
         [WebInvoke(BodyStyle = WebMessageBodyStyle.WrappedRequest)]
-        DTO.General.ResultGeneric<DTO.Configuration.TramiteEspecificacion> GetTramiteEspecificacionList();
+        DTO.General.ResultGeneric<DTO.Configuration.TramiteConfiguracion> GetTramiteEspecificacionList();
     }
 }
