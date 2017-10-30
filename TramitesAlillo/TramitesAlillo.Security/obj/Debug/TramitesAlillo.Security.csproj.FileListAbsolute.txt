@@ -3,3 +3,8 @@ E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\b
 E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.csprojResolveAssemblyReference.cache
 E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.dll
 E:\TRABAJO\proyectos\TramitesAlillo\App\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\bin\Debug\TramitesAlillo.Security.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\bin\Debug\TramitesAlillo.Security.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.csprojResolveAssemblyReference.cache
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.pdb

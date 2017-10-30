@@ -25,9 +25,9 @@ namespace TramitesAlillo.DTO.Security
         /// <returns></returns>
         public UserManagement GetUsersFromDB()
         {
-            using (DBAcceso<UserManagement> usersList = new DBAcceso<UserManagement>())
+            using (DAL.Security.UserManagement<UserManagement> usersList = new DAL.Security.UserManagement<UserManagement>())
             {
-                return usersList.GetObject("Usuarios.ObtenUsuarios");
+                return usersList.GetUsersFromDB();
             }
         }
 
@@ -37,9 +37,9 @@ namespace TramitesAlillo.DTO.Security
         /// <returns>Una instancia de SelectCatalogs que puede traer un arreglo</returns>
         public DTO.General.Catalogs.SelectCatalogs GetProfiles()
         {
-            using (DBAcceso<DTO.General.Catalogs.SelectCatalogs> profilesSelect = new DBAcceso<DTO.General.Catalogs.SelectCatalogs>())
+            using (DAL.Security.UserManagement<DTO.General.Catalogs.SelectCatalogs> profilesSelect = new DAL.Security.UserManagement<DTO.General.Catalogs.SelectCatalogs>())
             {
-                return profilesSelect.GetObject("Usuarios.ObtenPerfiles");
+                return profilesSelect.GetProfiles();
             }
         }
 

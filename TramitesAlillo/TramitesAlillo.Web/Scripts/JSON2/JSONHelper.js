@@ -7,7 +7,9 @@ function doJsonObjectAjaxCallback(serviceUrl, method, jsonObject, successFunctio
             data: JSON.stringify(jsonObject),
             contentType: "application/json; charset=utf-8",
             dataType: "json",
-            success: successFunction,
+            success: function (result) {
+                successFunction(result.d || result);
+            },
             error: function (xhr, status, error) {
                 tramitesAlilloObjects.GlobalMessage.Show(xhr.responseText, true);
             }

@@ -18,3 +18,13 @@ E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.Web\bi
 E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.csprojResolveAssemblyReference.cache
 E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.dll
 E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Web.dll.config
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Web.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Web.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\bin\Newtonsoft.Json.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Security.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\bin\TramitesAlillo.Security.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\bin\Newtonsoft.Json.xml
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.csprojResolveAssemblyReference.cache
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Web\obj\Debug\TramitesAlillo.Web.pdb

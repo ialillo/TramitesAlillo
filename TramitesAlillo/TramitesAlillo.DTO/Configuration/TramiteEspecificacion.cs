@@ -11,7 +11,7 @@ namespace TramitesAlillo.DTO.Configuration
     [DataContract]
     public class TramiteEspecificacion
     {
-        //private bool _disposed;
+        private bool _disposed;
 
         /// <summary>
         /// 
@@ -159,7 +159,7 @@ namespace TramitesAlillo.DTO.Configuration
 
         }
 
-        /* /// <summary>
+        /// <summary>
         /// 
         /// </summary>
         public void Dispose()
@@ -186,7 +186,7 @@ namespace TramitesAlillo.DTO.Configuration
             {
                 _disposed = true;
             }
-        }*/
+        }
 
     }
 }

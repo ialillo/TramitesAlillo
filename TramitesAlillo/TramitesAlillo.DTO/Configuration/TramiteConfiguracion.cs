@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Xml.Serialization;
+using System.Runtime.Serialization;
 using System.Collections.Generic;
 using TramitesAlillo.DAL;
 

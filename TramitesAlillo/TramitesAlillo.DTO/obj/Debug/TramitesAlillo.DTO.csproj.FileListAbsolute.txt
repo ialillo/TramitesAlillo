@@ -26,3 +26,17 @@ E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\bi
 E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.csprojResolveAssemblyReference.cache
 E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.dll
 E:\TRABAJO\proyectos\TramitesAlillo\App\GIT\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DTO.dll.config
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DTO.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DTO.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DAL.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.Security.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.DAL.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\TramitesAlillo.Security.pdb
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.csprojResolveAssemblyReference.cache
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.dll
+C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DTO\obj\Debug\TramitesAlillo.DTO.pdb
