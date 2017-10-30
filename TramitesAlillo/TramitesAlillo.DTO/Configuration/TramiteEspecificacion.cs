@@ -9,9 +9,9 @@ namespace TramitesAlillo.DTO.Configuration
     /// 
     /// </summary>
     [DataContract]
-    public class TramiteEspecificacion : IDisposable
+    public class TramiteEspecificacion
     {
-        private bool _disposed;
+        //private bool _disposed;
 
         /// <summary>
         /// 
@@ -159,19 +159,7 @@ namespace TramitesAlillo.DTO.Configuration
 
         }
 
-        /// <summary>
-        /// Traemos la lista de Especificacion de tramites vigente
-        /// </summary>
-        /// <returns></returns>
-        public TramiteEspecificacion GetTramiteEspecificacionList()
-        {
-            using (DBAcceso<TramiteEspecificacion> te = new DBAcceso<TramiteEspecificacion>())
-            {
-                return te.GetObject("Configuracion.TramiteEspecificacionManagement");
-            }
-        }
-
-         /// <summary>
+        /* /// <summary>
         /// 
         /// </summary>
         public void Dispose()
@@ -198,7 +186,7 @@ namespace TramitesAlillo.DTO.Configuration
             {
                 _disposed = true;
             }
-        }
+        }*/
 
     }
 }

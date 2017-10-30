@@ -3,7 +3,7 @@
         if (serviceResult.Success) {
             $("#tblTramitesEspecificaciones").parent().remove();
 
-            var tramitesEspecificaciones = serviceResult.Object.TramiteEspecificacion;
+            var tramitesEspecificaciones = serviceResult.Object.TramitesEspecificaciones;
             var htmlTable = "";
 
             htmlTable += "<table id='tblTramitesEspecificaciones' class='display' cellspacing='0' width='100%'>";
