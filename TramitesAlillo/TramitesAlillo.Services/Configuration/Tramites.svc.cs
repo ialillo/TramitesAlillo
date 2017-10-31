@@ -17,7 +17,7 @@ namespace TramitesAlillo.Services.Configuration
             {
                 try
                 {
-                    using (DTO.Configuration.TramiteConfiguracion te = new DTO.Configuration.TramiteConfiguracion())
+                    using (DTO.Configuration.TramiteConfiguracionDAL te = new DTO.Configuration.TramiteConfiguracionDAL())
                     {
                         result.Object = te.GetTramiteEspecificacionList();
                         result.Success = true;
