@@ -13,5 +13,11 @@
     </asp:ScriptManager>
 
     <div class="page-header">Configuracion De Tramites</div>
-    <div id="contentBody"></div>
+    <div id="contentBody">
+        <div>
+            <button type="button" class="btn btn-success btn-sm right" onclick="tramiteEspecificacionObjects.Modal.altaConfiguracion()">
+                <span class="glyphicon glyphicon-user"></span> Nueva Configuracion
+            </button>
+        </div>
+    </div>
 </asp:Content>

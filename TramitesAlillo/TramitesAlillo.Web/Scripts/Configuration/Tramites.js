@@ -1,4 +1,5 @@
 ﻿var tramiteEspecificacionObjects = {
+    // Funcion que dibuja la tabla incial de configuracion de tramites
     escribeTablaTramitesEspecificacion: function (serviceResult) {
         if (serviceResult.Success) {
             $("#tblTramitesEspecificaciones").parent().remove();
@@ -39,9 +40,21 @@
         else {
             tramitesAlilloObjects.GlobalMessage.Show(serviceResult.ServiceMessage, true);
         }
+    },
+    Modal: {
+        altaConfiguracion: function () {
+        },
+        creaModalConfiguracion: function () {
+            // Establecemos el titulo del modal
+            var modalTitle = "Nueva Configuraci&oacute;n de Tr&aacute;mite";
+            var modalBody = "";
+            var modalFooter = "";
+
+        }
     }
 }
 
+// Funcion que se inicia antes de que cargue la pagina
 $(document).ready(function () {
     doJsonObjectAjaxCallback(tramitesAlilloObjects.Services.URLs.Configuracion.subURL, tramitesAlilloObjects.Services.URLs.Configuracion.getTramiteEspecificacionList, {},
         tramiteEspecificacionObjects.escribeTablaTramitesEspecificacion);

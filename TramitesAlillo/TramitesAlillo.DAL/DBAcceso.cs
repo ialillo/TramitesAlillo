@@ -74,6 +74,27 @@ namespace TramitesAlillo.DAL
         }
 
         /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public T[] GetObjectArray(string query)
+        {
+            return (T[])new XmlSerializer(typeof(T)).Deserialize(this.ExecuteXmlReader(this.GetSqlStringCommand(query)));
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="spName"></param>
+        /// <param name="spParams"></param>
+        /// <returns></returns>
+        public T[] GetObjectArray(string spName, params object[] spParams)
+        {
+            return (T[])new XmlSerializer(typeof(T)).Deserialize(this.ExecuteXmlReader(this.GetStoredProcCommand(spName, spParams)));
+        }
+
+        /// <summary>
         /// Obtiene un dataset desde la base de datos a través de la ejecución de un stored procedure
         /// </summary>
         /// <param name="spName">Nombre del Stored Procedure</param>
