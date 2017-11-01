@@ -11,8 +11,6 @@ namespace TramitesAlillo.DTO.Configuration
     [DataContract]
     public class TramiteEspecificacion
     {
-        private bool _disposed;
-
         /// <summary>
         /// 
         /// </summary>
@@ -119,74 +117,5 @@ namespace TramitesAlillo.DTO.Configuration
         /// </summary>
         [DataMember]
         public string FechaFinVigencia { get; set; }
-
-        /// <summary>
-        /// Insertamos una nueva especificacion de un tramite
-        /// </summary>
-        /// <param name="idEntidadTramite"></param>
-        /// <param name="idTipoTramite"></param>
-        /// <param name="idRequerimientoTramite"></param>
-        /// <param name="idRequerimientoTramiteTipoEntrega"></param>
-        /// <param name="personaMoral"></param>
-        /// <param name="carga"></param>
-        public void InsertTramiteEspecificacion(int idEntidadTramite, int idTipoTramite, int idRequerimientoTramite, int idRequerimientoTramiteTipoEntrega, 
-            bool personaMoral, bool carga)
-        {
-            using(DBAcceso<TramiteEspecificacion> tes = new DBAcceso<TramiteEspecificacion>())
-            {
-                tes.ExecuteNonQuery("Configuracion.TramiteEspecificacionManagement", 1, idEntidadTramite, idTipoTramite, idRequerimientoTramite, 
-                    idRequerimientoTramiteTipoEntrega, personaMoral, carga);
-            }
-        }
-
-        /// <summary>
-        /// Desactivamos un requerimiento de un tramite
-        /// </summary>
-        /// <param name="idEntidadTramite"></param>
-        /// <param name="idTipoTramite"></param>
-        /// <param name="idRequerimientoTramite"></param>
-        /// <param name="idRequerimientoTramiteTipoEntrega"></param>
-        /// <param name="personaMoral"></param>
-        /// <param name="carga"></param>
-        public void DeactivateTramiteEspecificacion(int idEntidadTramite, int idTipoTramite, int idRequerimientoTramite, int idRequerimientoTramiteTipoEntrega, 
-            bool personaMoral, bool carga)
-        {
-            using(DBAcceso<TramiteEspecificacion> te = new DBAcceso<TramiteEspecificacion>())
-            {
-                te.ExecuteNonQuery("Configuracion.TramiteEspecificacionManagement", 2, idEntidadTramite, idTipoTramite, idRequerimientoTramite, 
-                    idRequerimientoTramiteTipoEntrega, personaMoral, carga);
-            }
-
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public void Dispose()
-        {
-            Dispose(true);
-            GC.SuppressFinalize(this);
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        ~TramiteEspecificacion()
-        {
-            Dispose(false);
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="disposing"></param>
-        public virtual void Dispose(bool disposing)
-        {
-            if (!_disposed)
-            {
-                _disposed = true;
-            }
-        }
-
     }
 }

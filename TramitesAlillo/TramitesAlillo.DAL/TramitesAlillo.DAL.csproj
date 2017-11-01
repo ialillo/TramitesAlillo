@@ -50,7 +50,6 @@
     <Compile Include="CadenaDeConexion.cs" />
     <Compile Include="DBAcceso.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Security\UserManagement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
