@@ -7,6 +7,12 @@ function doJsonObjectAjaxCallback(serviceUrl, method, jsonObject, successFunctio
             data: JSON.stringify(jsonObject),
             contentType: "application/json; charset=utf-8",
             dataType: "json",
+            beforeSend: function () {
+                //tramitesAlilloObjects.LoadingModal.Show();
+            },
+            complete: function () {
+                //tramitesAlilloObjects.LoadingModal.Hide();
+            },
             success: function (result) {
                 successFunction(result.d || result);
             },
