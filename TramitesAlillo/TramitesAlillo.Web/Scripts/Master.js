@@ -45,8 +45,11 @@
 
             //Ponemos la clase de activo al elemnto que representa la pagina actual en el menu del sitio
             masterPageObject.EstableceItemMenuActivo();
+
+            //tramitesAlilloObjects.LoadingModal.Hide();
         } else {
             tramitesAlilloObjects.GlobalMessage.Show(serviceResult.GetMenuResult.ServiceMessage, true);
+            //tramitesAlilloObjects.LoadingModal.Hide();
         }
     },
     PreparaModal: function (serviceResult) {
@@ -95,6 +98,9 @@
 
 
 $(document).ready(function () {
+    //Mostramos el modal de loading data
+    //tramitesAlilloObjects.LoadingModal.Show();
+
     //Creamos el objeto de mensajes globales del sitio
     tramitesAlilloObjects.GlobalMessage.Create();
 

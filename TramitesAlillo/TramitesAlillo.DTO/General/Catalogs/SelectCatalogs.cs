@@ -16,14 +16,8 @@ namespace TramitesAlillo.DTO.General.Catalogs
         /// <summary>
         /// Regresa un arreglo de las familias existentes
         /// </summary>
-        [XmlElement(ElementName = "Familias")]
-        public Controls.Select[] Familias { get; set; }
-
-        /// <summary>
-        /// Representa un arreglo de perfiles de usuario del sistema
-        /// </summary>
-        [XmlElement(ElementName = "Perfiles")]
-        public Controls.Select[] Perfiles { get; set; }
+        [XmlElement(ElementName = "Select")]
+        public Controls.Select[] SelectItems { get; set; }
 
         /// <summary>
         /// 

@@ -8,10 +8,10 @@ function doJsonObjectAjaxCallback(serviceUrl, method, jsonObject, successFunctio
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             beforeSend: function () {
-                //tramitesAlilloObjects.LoadingModal.Show();
+                tramitesAlilloObjects.LoadingModal.Show();
             },
             complete: function () {
-                //tramitesAlilloObjects.LoadingModal.Hide();
+                tramitesAlilloObjects.LoadingModal.Hide();
             },
             success: function (result) {
                 successFunction(result.d || result);
