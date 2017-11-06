@@ -58,6 +58,7 @@
     <Compile Include="General\Catalogs\RequerimientoTramite.cs" />
     <Compile Include="General\Catalogs\RequerimientoTramiteStatus.cs" />
     <Compile Include="General\Catalogs\RequerimientoTramiteTipoEntrega.cs" />
+    <Compile Include="General\Catalogs\SelectCatalogosDAL.cs" />
     <Compile Include="General\Catalogs\TipoTramite.cs" />
     <Compile Include="General\Catalogs\TramiteStatus.cs" />
     <Compile Include="General\Catalogs\SelectCatalogs.cs" />
