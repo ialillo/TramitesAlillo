@@ -61,18 +61,6 @@ namespace TramitesAlillo.DTO.General.Catalogs
         }
 
         /// <summary>
-        /// Obtenemos el catalogo de Entidades a las que tenga permiso el usuario en sesion con formato de select
-        /// </summary>
-        /// <returns></returns>
-        public SelectCatalogs GetEntidadesTramiteSelect(int idUsuario)
-        {
-            using(DBAcceso<SelectCatalogs> entidadesTramiteSelect = new DBAcceso<SelectCatalogs>())
-            {
-                return entidadesTramiteSelect.GetObject("Catalogos.EntidadTramiteManagement", 3, idUsuario);
-            }
-        }
-
-        /// <summary>
         /// Desactivamos una entidad del catalogo de entidades
         /// </summary>
         /// <param name="idEntidadTramite"></param>

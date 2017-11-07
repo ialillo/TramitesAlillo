@@ -16,7 +16,7 @@ namespace TramitesAlillo.DTO.General.Catalogs
         /// <summary>
         /// Regresa un arreglo de las familias existentes
         /// </summary>
-        [XmlElement(ElementName = "Select")]
+        [XmlElement(ElementName = "SelectItems")]
         public Controls.Select[] SelectItems { get; set; }
 
         /// <summary>

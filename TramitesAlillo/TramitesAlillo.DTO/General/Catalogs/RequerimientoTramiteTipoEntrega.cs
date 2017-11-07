@@ -63,18 +63,6 @@ namespace TramitesAlillo.DTO.General.Catalogs
         /// <summary>
         /// 
         /// </summary>
-        /// <returns></returns>
-        public SelectCatalogs GetRequerimientoTramiteTipoEntregaSelect()
-        {
-            using (DBAcceso<SelectCatalogs> rttes = new DBAcceso<SelectCatalogs>())
-            {
-                return rttes.GetObject("Catalogos.RequerimientoTramiteTipoEntregaManagement", 5);
-            }
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
         /// <param name="idRequerimientoTramiteTipoEntrega"></param>
         public void DeactivateRequerimientoTramiteTipoEntrega(int idRequerimientoTramiteTipoEntrega)
         {

@@ -62,18 +62,6 @@ namespace TramitesAlillo.DTO.General.Catalogs
         }
 
         /// <summary>
-        /// Obtenemos la lista de requerimientos del catalogo para llenar un select
-        /// </summary>
-        /// <returns></returns>
-        public SelectCatalogs GetRequerimientoTramiteSelect()
-        {
-            using (DBAcceso<SelectCatalogs> GetRequerimientoTramiteSelect = new DBAcceso<SelectCatalogs>())
-            {
-                return GetRequerimientoTramiteSelect.GetObject("Catalogos.RequerimientoTramiteManagement", 5);
-            }
-        }
-
-        /// <summary>
         /// Desactivamos un requerimiento del catalogo
         /// </summary>
         /// <param name="idRequerimientoTramite"></param>
