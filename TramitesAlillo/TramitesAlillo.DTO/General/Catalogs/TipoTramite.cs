@@ -62,18 +62,6 @@ namespace TramitesAlillo.DTO.General.Catalogs
         }
 
         /// <summary>
-        /// Traemos una lista de tipos de tramite para llenar un select
-        /// </summary>
-        /// <returns></returns>
-        public SelectCatalogs GetTipoTramiteSelect()
-        {
-            using (DBAcceso<SelectCatalogs> tipoTramiteSelect = new DBAcceso<SelectCatalogs>())
-            {
-                return tipoTramiteSelect.GetObject("Catalogos.TipoTramiteManagement", 5);
-            }
-        }
-
-        /// <summary>
         /// Desactivamos un item del catalogo de Tipos de Tramite
         /// </summary>
         /// <param name="idTipoTramite"></param>
