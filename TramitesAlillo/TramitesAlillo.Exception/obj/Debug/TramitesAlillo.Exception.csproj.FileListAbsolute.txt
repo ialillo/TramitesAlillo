@@ -8,3 +8,8 @@ C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.
 C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.csprojResolveAssemblyReference.cache
 C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.dll
 C:\Users\Abelardo\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.pdb
+C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\bin\Debug\TramitesAlillo.Exception.dll
+C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\bin\Debug\TramitesAlillo.Exception.pdb
+C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.csprojResolveAssemblyReference.cache
+C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.dll
+C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.pdb
