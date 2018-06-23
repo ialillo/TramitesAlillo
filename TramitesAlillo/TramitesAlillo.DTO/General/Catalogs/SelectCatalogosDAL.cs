@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 
 namespace TramitesAlillo.DTO.General.Catalogs
 {
-    class SelectCatalogosDAL : DBAcceso<SelectCatalogs>
+    public class SelectCatalogosDAL : DBAcceso<SelectCatalogs>
     {
         public SelectCatalogosDAL() { }
 

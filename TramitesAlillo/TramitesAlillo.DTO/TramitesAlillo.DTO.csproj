@@ -54,6 +54,7 @@
     <Compile Include="Configuration\TramiteEspecificacionDAL.cs" />
     <Compile Include="General\Catalogs\AdicionalesTramite.cs" />
     <Compile Include="General\Catalogs\ColoresEngomado.cs" />
+    <Compile Include="General\Catalogs\ConceptosCarga.cs" />
     <Compile Include="General\Catalogs\EntidadTramite.cs" />
     <Compile Include="General\Catalogs\RequerimientoTramite.cs" />
     <Compile Include="General\Catalogs\RequerimientoTramiteStatus.cs" />

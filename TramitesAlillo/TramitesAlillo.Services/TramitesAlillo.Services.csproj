@@ -84,6 +84,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Catalogs\EntidadTramite.svc" />
     <Content Include="Configuration\Tramites.svc" />
     <Content Include="Global.asax" />
     <Content Include="Navegation\Navegation.svc" />
@@ -94,6 +95,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Catalogs\EntidadTramite.svc.cs">
+      <DependentUpon>EntidadTramite.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\IEntidadTramite.cs" />
     <Compile Include="Configuration\ITramites.cs" />
     <Compile Include="Configuration\Tramites.svc.cs">
       <DependentUpon>Tramites.svc</DependentUpon>

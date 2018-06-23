@@ -7,27 +7,23 @@ namespace TramitesAlillo.DTO.General.Catalogs
     /// 
     /// </summary>
     [DataContract]
-    class ColoresEngomado
+    class ConceptosCarga
     {
         /// <summary>
         /// 
         /// </summary>
-        public ColoresEngomado() { }
+        public ConceptosCarga() { }
 
         /// <summary>
         /// 
         /// </summary>
         /// <param name="id"></param>
-        /// <param name="dia"></param>
-        /// <param name="color"></param>
-        /// <param name="terminacionPlaca"></param>
+        /// <param name="nombreConceptoCarga"></param>
         /// <param name="activo"></param>
-        public ColoresEngomado(int id, string dia, string color, string terminacionPlaca, bool activo)
+        public ConceptosCarga(int id, string nombreConceptoCarga, bool activo)
         {
             this.Id = id;
-            this.Dia = dia;
-            this.Color = color;
-            this.TerminacionPlaca = terminacionPlaca;
+            this.NombreConceptoCarga = nombreConceptoCarga;
             this.Activo = activo;
         }
 
@@ -41,19 +37,7 @@ namespace TramitesAlillo.DTO.General.Catalogs
         /// 
         /// </summary>
         [DataMember]
-        public string Dia { get; set; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        [DataMember]
-        public string Color { get; set; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        [DataMember]
-        public string TerminacionPlaca { get; set; }
+        public string NombreConceptoCarga { get; set; }
 
         /// <summary>
         /// 

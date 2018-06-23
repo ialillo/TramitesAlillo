@@ -17,8 +17,10 @@
 
             $(tramitesEspecificaciones).each(function (cont, tramiteEsp) {
 
-                var esPersonaMoral = tramiteEsp.PersonaMoral ? "Si" : "No";
-                var esCarga = tramiteEsp.Carga ? "Si" : "No";
+                var esPersonaMoral = tramiteEsp.PersonaMoral ? "<span class='glyphicon glyphicon-ok' aria-hidden='true'></span>" :
+                                     "<span class='glyphicon glyphicon-remove' aria-hidden='true'></span>";
+                var esCarga = tramiteEsp.Carga ? "<span class='glyphicon glyphicon-ok' aria-hidden='true'></span>" :
+                              "<span class='glyphicon glyphicon-remove' aria-hidden='true'></span>";
 
                 htmlTable += "<tr>";
                 htmlTable += "<td>" + tramiteEsp.NombreEntidadTramite + "</td>";
@@ -49,6 +51,10 @@
             var modalTitle = "Nueva Configuraci&oacute;n de Tr&aacute;mite";
             var modalBody = "";
             var modalFooter = "";
+
+            //Establecemos el cuerpo del modal
+            modalBody += tramitesAlilloObjects.Tools.HTMLControls.FormGroups.codeSnippets.openFormContainer;
+
 
         }
     }
