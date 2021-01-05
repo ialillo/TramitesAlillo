@@ -16,7 +16,7 @@ namespace TramitesAlillo.DTO.General.Catalogs
         /// <returns></returns>
         public SelectCatalogs GetEntidadesTramite(int idUsuario)
         {
-            return GetObject("Catalogos.EntidadTramiteManagement", 3, idUsuario);
+            return GetObject("Catalogos.EntidadTramiteManagement 5, " + idUsuario.ToString());
         }
 
         /// <summary>
@@ -25,7 +25,7 @@ namespace TramitesAlillo.DTO.General.Catalogs
         /// <returns></returns>
         public SelectCatalogs GetRequerimientoTramite()
         {
-            return GetObject("Catalogos.RequerimientoTramiteManagement", 5);
+            return GetObject("Catalogos.RequerimientoTramiteManagement 5");
         }
 
         /// <summary>
@@ -34,7 +34,7 @@ namespace TramitesAlillo.DTO.General.Catalogs
         /// <returns></returns>
         public SelectCatalogs GetRequerimientoTramiteTipoEntrega()
         {
-            return GetObject("Catalogos.RequerimientoTramiteTipoEntregaManagement", 5);
+            return GetObject("Catalogos.RequerimientoTramiteTipoEntregaManagement 5");
         }
 
         /// <summary>
@@ -43,7 +43,7 @@ namespace TramitesAlillo.DTO.General.Catalogs
         /// <returns></returns>
         public SelectCatalogs GetTipoTramite()
         {
-            return GetObject("Catalogos.TipoTramiteManagement", 5);
+            return GetObject("Catalogos.TipoTramiteManagement 5");
         }
     }
 }

@@ -73,23 +73,25 @@
         var dialogTitle = "";
         var dialogBody = "";
         var dialogFooter = "";
+        var idModalAyuda = "modalAyuda";
 
         dialogTitle += "Ayuda";
 
-        dialogBody += "<p>Si tienes alg&uacute;n problema, envi&iacute;anos un correo para atender la situaci&oacute;n:</p>";
+        dialogBody += "Hola " + loggedUserName + "!"
+        dialogBody += "<p>Si tienes alg&uacute;n problema, env&iacute;anos un correo para atender la situaci&oacute;n:</p>";
         dialogBody += "<p><a href = '" + mailGOTA + "'><span class = 'glyphicon glyphicon-envelope'></span> Isaí Alillo</a><p>";
 
         dialogFooter += "<button id='btnAyudaOK' type='button' class='btn btn-default'>OK</button>";
 
         // Insertamos el html del modal
-        tramitesAlilloObjects.Modal.Create("body", dialogTitle, dialogBody, dialogFooter);
+        tramitesAlilloObjects.Modal.Create("body", dialogTitle, dialogBody, dialogFooter, idModalAyuda);
 
         // Boton que oculta el modal de ayuda
         $("#btnAyudaOK").bind("click", function () {
-            tramitesAlilloObjects.Modal.Hide();
+            tramitesAlilloObjects.Modal.Hide(idModalAyuda);
         });
 
-        tramitesAlilloObjects.Modal.Show();
+        tramitesAlilloObjects.Modal.Show(idModalAyuda);
     }
 }
 

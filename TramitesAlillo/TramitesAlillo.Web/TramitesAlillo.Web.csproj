@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -79,6 +81,7 @@
     <Content Include="Components\DataTables\js\jquery.dataTables.min.js" />
     <Content Include="Configuration\Tramites.aspx" />
     <Content Include="Fonts\Bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\ALFLogo.png" />
     <Content Include="Images\loginBckgrnd.png" />
     <Content Include="Images\siteBackground.png" />
     <Content Include="Login.aspx" />
@@ -87,6 +90,7 @@
     <Content Include="Scripts\Bootstrap\bootstrapValidator.min.js" />
     <Content Include="Scripts\Configuration\Tramites.js" />
     <Content Include="Scripts\General.js" />
+    <Content Include="Scripts\Home\Inicio.js" />
     <Content Include="Scripts\JQuery\jquery-2.1.0.min.js" />
     <Content Include="Scripts\JSON2\json2.min.js" />
     <Content Include="Scripts\JSON2\JSONHelper.js" />

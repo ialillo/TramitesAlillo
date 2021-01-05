@@ -27,7 +27,7 @@ namespace TramitesAlillo.DTO.Configuration
             bool personaMoral, bool carga)
         {
             ExecuteNonQuery("Configuracion.TramiteEspecificacionManagement", 1, idEntidadTramite, idTipoTramite, idRequerimientoTramite,
-                    idRequerimientoTramiteTipoEntrega, personaMoral, carga);
+                    idRequerimientoTramiteTipoEntrega, personaMoral, carga, "9999-12-31", "9999-12-31");
         }
 
         /// <summary>

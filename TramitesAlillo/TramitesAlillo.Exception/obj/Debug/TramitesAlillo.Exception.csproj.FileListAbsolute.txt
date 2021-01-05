@@ -13,3 +13,8 @@ C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exc
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.csprojResolveAssemblyReference.cache
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.dll
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\bin\Debug\TramitesAlillo.Exception.dll
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\bin\Debug\TramitesAlillo.Exception.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.dll
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Exception\obj\Debug\TramitesAlillo.Exception.csprojResolveAssemblyReference.cache

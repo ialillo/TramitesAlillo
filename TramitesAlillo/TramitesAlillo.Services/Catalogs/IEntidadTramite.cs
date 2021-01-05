@@ -14,6 +14,6 @@ namespace TramitesAlillo.Services.Catalogs
         /// <returns></returns>
         [OperationContract]
         [WebInvoke(BodyStyle = WebMessageBodyStyle.WrappedRequest)]
-        DTO.General.ResultGeneric<DTO.General.Catalogs.SelectCatalogs> GetEntidadTramiteList(int idUsuario);
+        DTO.General.ResultGeneric<DTO.General.Catalogs.SelectCatalogs> GetEntidadTramiteSelect();
     }
 }

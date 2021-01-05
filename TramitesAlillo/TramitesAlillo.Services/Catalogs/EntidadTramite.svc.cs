@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Web;
 
 namespace TramitesAlillo.Services.Catalogs
 {
@@ -11,15 +12,21 @@ namespace TramitesAlillo.Services.Catalogs
     // NOTE: In order to launch WCF Test Client for testing this service, please select EntidadTramite.svc or EntidadTramite.svc.cs at the Solution Explorer and start debugging.
     public class EntidadTramite : IEntidadTramite
     {
-        public DTO.General.ResultGeneric<DTO.General.Catalogs.SelectCatalogs> GetEntidadTramiteList(int idUsuario)
+        /// <summary>
+        /// Trae la lista de entidades federativas a las que el usuario en sesion tiene acceso
+        /// </summary>
+        /// <returns></returns>
+        public DTO.General.ResultGeneric<DTO.General.Catalogs.SelectCatalogs> GetEntidadTramiteSelect()
         {
             using (DTO.General.ResultGeneric<DTO.General.Catalogs.SelectCatalogs> result = new DTO.General.ResultGeneric<DTO.General.Catalogs.SelectCatalogs>())
             {
                 try
                 {
+                    DTO.Security.LoggedUser usuario = (DTO.Security.LoggedUser)HttpContext.Current.Session["User"];
+
                     using (DTO.General.Catalogs.SelectCatalogosDAL sc = new DTO.General.Catalogs.SelectCatalogosDAL())
                     {
-                        result.Object = sc.GetEntidadesTramite(idUsuario);
+                        result.Object = sc.GetEntidadesTramite(usuario.Id);
                         result.Success = true;
                         result.ServiceMessage = "OK";
 

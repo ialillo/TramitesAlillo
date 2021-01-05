@@ -52,7 +52,15 @@
             },
             Configuracion: {
                 subURL: "Services/Configuration",
-                getTramiteEspecificacionList: "/GetTramiteEspecificacionList"
+                getTramiteEspecificacionList: "/GetTramiteEspecificacionList",
+                insertTramiteEspecificacion: "/SaveTramiteConfiguracion"
+            },
+            Catalogos: {
+                subURL: "Services/Catalogs.Selects",
+                getEntidadesTramiteSelect: "/GetEntidadTramiteList",
+                getTipoTramiteSelect: "/GetTipoTramiteList",
+                getRequerimientoTramiteSelect: "/GetRequerimientoTramiteList",
+                getRequerimientoTramiteTipoEntregaSelect: "/GetRequerimientoTramiteTipoEntregaList"
             }
         }
     },
@@ -152,18 +160,30 @@
     Modal: {
         autoHide: false,
         timeToHideInSeconds: 3,
-        modalBaseHTML: "<div class='modal fade' id='modalGeneral' tabindex='-1' role='dialog' aria-labelledby='dialogTitle' aria-hidden='true'><div class='modal-dialog'>" +
-            "<div class='modal-content'><div class='modal-header'><h5 class='modal-title' id='modalTitle'></h5></div><div class='modal-body'></div>" +
-            "<div class='modal-footer'></div></div></div></div>",
         selectors: {
-            myModal: "#modalGeneral",
-            modalTitle: "#modalTitle",
-            modalBody: "div[class='modal-body']",
-            modalFooter: "div[class='modal-footer']"
+            myModal: "#mG",
+            modalTitle: "#mT",
+            modalBody: "#mB",
+            modalFooter: "#mF"
         },
-        Create: function (parentSelector, title, body, footer) {
+        Create: function (parentSelector, title, body, footer, idModal) {
+
+            var modalBaseHTML = "<div class='modal fade' id='mG' tabindex='-1' role='dialog' aria-labelledby='dialogTitle' aria-hidden='true'><div class='modal-dialog'>" +
+            "<div class='modal-content'><div class='modal-header'><h5 class='modal-title' id='mT'></h5></div><div id='mB' class='modal-body'></div>" +
+            "<div id='mF' class='modal-footer'></div></div></div></div>";
+
+            this.selectors.myModal = "#mG" + idModal;
+            this.selectors.modalTitle = "#mT" + idModal;
+            this.selectors.modalBody = "#mB" + idModal;
+            this.selectors.modalFooter = "#mF" + idModal;
+
+            modalBaseHTML = modalBaseHTML.replace("mG", "mG" + idModal);
+            modalBaseHTML = modalBaseHTML.replace("mT", "mT" + idModal);
+            modalBaseHTML = modalBaseHTML.replace("mB", "mB" + idModal);
+            modalBaseHTML = modalBaseHTML.replace("mF", "mF" + idModal);
+
             $(this.selectors.myModal).remove();
-            $(parentSelector).append(this.modalBaseHTML);
+            $(parentSelector).append(modalBaseHTML);
             $(this.selectors.modalTitle).html("<strong>" + title + "</strong>");
             $(this.selectors.modalBody).html(body);
             if (footer) {
@@ -172,18 +192,22 @@
                 $(this.selectors.modalFooter).remove();
             }
         },
-        Show: function () {
-            $(this.selectors.myModal).modal({backdrop: 'static', keyboard: false});
-            $(this.selectors.myModal).modal("show");
+        Show: function (idModal) {
+            idModal = "#mG" + idModal;
+
+            $(idModal).modal({backdrop: 'static', keyboard: false});
+            $(idModal).modal("show");
 
             if (this.autoHide) {
                 setTimeout(function () {
-                    tramitesAlilloObjects.Modal.Hide();
+                    tramitesAlilloObjects.Modal.Hide(idModal);
                 }, this.timeToHideInSeconds * 1000)
             }
         },
-        Hide: function () {
-            $(this.selectors.myModal).modal("hide");
+        Hide: function (idModal) {
+            idModal = "#mG" + idModal;
+
+            $(idModal).modal("hide");
         }
     },
     Tools: {
@@ -206,7 +230,9 @@
                     closeFormGroup: "</div>",
                     openInputGroupContainer: "<div class='input-group col-xs-12 col-sm-12 col-md-12 col-lg-12'>",
                     closeInputGroupContainer: "</div>",
-                    blankSpace: "&nbsp;"
+                    blankSpace: "&nbsp;",
+                    modalBodyOpener: "<div class='form' role='form'>",
+                    modalBodyCloser: "</div>"
                 },
                 labelWithTextBox: function(labelText, txtBoxId, txtBoxPlaceHolder, txtBoxMinLength, txtBoxMaxLength){
                     var htmlToReturn = "";
@@ -252,6 +278,17 @@
                     htmlToReturn += this.codeSnippets.closeFormGroup;
 
                     return htmlToReturn;
+                },
+                labelWithCheckBox: function (labelText, checkId) {
+                    var htmlToReturn = "";
+
+                    htmlToReturn += this.codeSnippets.openFormGroup;
+                    htmlToReturn += "<input type='checkbox' id='" + checkId + "' name='" + checkId + "' class='form-check'>";
+                    htmlToReturn += "<label class='chkLabel'>" + labelText + "</label>";
+                    htmlToReturn += this.codeSnippets.closeFormGroup;
+
+                    return htmlToReturn;
+
                 }
             }
         }

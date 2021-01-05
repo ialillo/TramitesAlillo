@@ -1,4 +1,6 @@
-﻿$(document).ready(function () {
+﻿var idModalLogin = "modalLogin";
+
+$(document).ready(function () {
 
     //Establecemos el contenido del modal dialog
     modalTitle = "Renueva Contraseña";
@@ -22,7 +24,7 @@
     modalFooter = "<button id='btnCambiaContrasena' type='button' class='btn btn-primary'>Cambiar</button>";
     modalFooter += "<button id='btnCancelar' type='button' class='btn btn-default'>Cancelar</button>";
 
-    tramitesAlilloObjects.Modal.Create("body", modalTitle, modalBody, modalFooter);
+    tramitesAlilloObjects.Modal.Create("body", modalTitle, modalBody, modalFooter, idModalLogin);
     tramitesAlilloObjects.GlobalMessage.Create();
 
     //Le agregamos el evento click al boton de cambiar contraseña del modal del login
@@ -65,7 +67,7 @@
 
     // Le agregamos el vento click al boton de cancelar del modal del login
     $("#btnCancelar").bind("click", function (event) {
-        tramitesAlilloObjects.Modal.Hide();
+        tramitesAlilloObjects.Modal.Hide(idModalLogin);
     });
 
     //Funcion que se detona al momento de darle click al boton de Login
@@ -95,7 +97,7 @@ var LoginCorrecto = function (result) {
     }
         //Entra aqui si el password del usuario fue restaurado
     else if (result.Success && result.ServiceMessage.indexOf("Restaurado") > -1) {
-        tramitesAlilloObjects.Modal.Show();
+        tramitesAlilloObjects.Modal.Show(idModalLogin);
     }
         //Entra aqui cuando la operacion se realizo con exito
     else {
@@ -109,7 +111,7 @@ function cambioDeContrasenaCorrecto(result) {
     if (!result.Success) {
         tramitesAlilloObjects.PopUp.Show("#btnCambiaContrasena", "Error:", "top", result.ServiceMessage, true, 8);
     } else {
-        tramitesAlilloObjects.Modal.Hide();
+        tramitesAlilloObjects.Modal.Hide(idModalLogin);
         tramitesAlilloObjects.GlobalMessage.Show("Cambio de contraseña exitoso, por favor ingresa con tus nuevas credenciales.", false);
         $("#txtPassword").val("");
         $("#txtPassword").focus();

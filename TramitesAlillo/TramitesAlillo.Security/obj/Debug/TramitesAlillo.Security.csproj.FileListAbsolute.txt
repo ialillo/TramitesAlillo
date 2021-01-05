@@ -13,3 +13,8 @@ C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Sec
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.csprojResolveAssemblyReference.cache
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.dll
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\bin\Debug\TramitesAlillo.Security.dll
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\bin\Debug\TramitesAlillo.Security.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.dll
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.Security\obj\Debug\TramitesAlillo.Security.csprojResolveAssemblyReference.cache

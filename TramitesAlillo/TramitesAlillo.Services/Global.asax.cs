@@ -23,6 +23,9 @@ namespace TramitesAlillo.Services
 
             ///Configuration
             RouteTable.Routes.Add(new ServiceRoute("Configuration", new WebScriptServiceHostFactory(), typeof(Configuration.Tramites)));
+
+            ///Catalogs
+            RouteTable.Routes.Add(new ServiceRoute("Catalogs.Selects", new WebScriptServiceHostFactory(), typeof(Catalogs.Selects.Selects)));
         }
 
         protected void Session_Start(object sender, EventArgs e)

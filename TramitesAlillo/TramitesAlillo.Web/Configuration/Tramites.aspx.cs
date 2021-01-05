@@ -11,7 +11,6 @@ namespace TramitesAlillo.Web.Configuration
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

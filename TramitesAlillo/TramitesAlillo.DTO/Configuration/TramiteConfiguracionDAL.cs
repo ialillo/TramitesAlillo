@@ -17,7 +17,7 @@ namespace TramitesAlillo.DTO.Configuration
         /// <returns></returns>
         public TramiteConfiguracion GetTramiteEspecificacionList()
         {
-            return GetObject("Configuracion.TramiteEspecificacionManagement");
+            return GetObject("Configuracion.TramiteEspecificacionManagement 3");
         }
 
         /// <summary>

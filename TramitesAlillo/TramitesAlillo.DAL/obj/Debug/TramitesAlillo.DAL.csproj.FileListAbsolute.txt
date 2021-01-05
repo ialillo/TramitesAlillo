@@ -33,3 +33,12 @@ C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\obj\Debug\TramitesAlillo.DAL.csprojResolveAssemblyReference.cache
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\obj\Debug\TramitesAlillo.DAL.dll
 C:\Users\isaia\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\obj\Debug\TramitesAlillo.DAL.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\TramitesAlillo.DAL.dll
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\TramitesAlillo.DAL.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\obj\Debug\TramitesAlillo.DAL.dll
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\obj\Debug\TramitesAlillo.DAL.pdb
+C:\Users\Isai\Documents\GitHub\TramitesAlillo\TramitesAlillo\TramitesAlillo.DAL\obj\Debug\TramitesAlillo.DAL.csprojResolveAssemblyReference.cache

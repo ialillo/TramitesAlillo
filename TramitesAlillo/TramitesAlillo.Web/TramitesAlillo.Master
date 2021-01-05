@@ -6,8 +6,8 @@
 <head runat="server">
     <title>Tramites Alillo</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" />
     <link href="/Styles/Bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="/Styles/Master.css" rel="stylesheet" />
 
@@ -23,7 +23,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="container-fluid">
+          <div>
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -31,7 +31,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a data-link="Home.aspx" class="navbar-brand pageLogo" onclick="masterPageObject.Menu.GoTo(this);" href="#">Tramites Alillo</a>
+              <a data-link="Home.aspx" class="pageLogo" onclick="masterPageObject.Menu.GoTo(this);" href="#">
+                  <img src="<%= ResolveUrl("~/Images/ALFLogo.png") %>" />
+              </a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">

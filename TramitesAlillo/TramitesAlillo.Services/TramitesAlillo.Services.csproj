@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Catalogs\EntidadTramite.svc" />
+    <Content Include="Catalogs\Selects\Selects.svc" />
     <Content Include="Configuration\Tramites.svc" />
     <Content Include="Global.asax" />
     <Content Include="Navegation\Navegation.svc" />
@@ -99,6 +100,10 @@
       <DependentUpon>EntidadTramite.svc</DependentUpon>
     </Compile>
     <Compile Include="Catalogs\IEntidadTramite.cs" />
+    <Compile Include="Catalogs\Selects\ISelects.cs" />
+    <Compile Include="Catalogs\Selects\Selects.svc.cs">
+      <DependentUpon>Selects.svc</DependentUpon>
+    </Compile>
     <Compile Include="Configuration\ITramites.cs" />
     <Compile Include="Configuration\Tramites.svc.cs">
       <DependentUpon>Tramites.svc</DependentUpon>
